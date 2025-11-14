@@ -1,28 +1,24 @@
 Cadastro e Avaliação de Estudante em C
 
-Projeto simples desenvolvido em linguagem C com o objetivo de praticar o uso de struct, funções de entrada e saída, manipulação de strings e estruturas condicionais.
+Projeto simples desenvolvido em linguagem C para praticar o uso de struct, entrada e saída de dados, manipulação de strings e estruturas condicionais.
 
-Funcionalidades do Programa
+Funcionalidades
 Tipo	Descrição
 Cadastro	Lê nome, matrícula e duas notas do estudante
 Cálculo	Calcula a média aritmética das notas
-Exibição	Mostra nome, matrícula, notas e média calculada
-Avaliação	Determina se o aluno foi aprovado ou reprovado (média ≥ 6)
-Recursos e Funções Utilizadas
-Função	Descrição
-fgets()	Lê o nome completo do aluno, incluindo espaços
-strcspn()	Remove o caractere \n deixado pelo fgets()
-if/else	Define a aprovação ou reprovação com base na média
-struct Estudante	Agrupa os dados: nome, matrícula, notas e média
-Tecnologias e Recursos Utilizados
-
-Desenvolvido em C utilizando Visual Studio Code, Dev-C++ e compiladores como GCC e GDB Online.
-
+Exibição	Mostra nome, matrícula, notas e média
+Avaliação	Informa se o aluno foi aprovado (média ≥ 6) ou reprovado
+Recursos Utilizados
+Recurso	Descrição
+fgets()	Lê o nome completo, incluindo espaços
+strcspn()	Remove o \n deixado pelo fgets()
+if/else	Avalia aprovação ou reprovação
+struct Estudante	Agrupa os dados do aluno
 Bibliotecas utilizadas
 #include <stdio.h>    // Entrada e saída de dados
 #include <string.h>   // Manipulação de strings
 
-Estrutura principal (struct Estudante)
+Estrutura utilizada
 struct Estudante {
     int matricula;
     float nota1;
@@ -32,78 +28,61 @@ struct Estudante {
 };
 
 Instalação, compilação e execução
+Compilação
 
-Para executar o programa, é necessário utilizar um compilador de C ou algum compilador online.
+Se estiver usando qualquer IDE (VS Code, Dev-C++, CodeBlocks, etc.):
 
-Compilando em uma IDE
+Baixe o arquivo aluno.c
 
-Baixar o arquivo aluno.c
+Abra na IDE
 
-Abrir o arquivo na IDE
+Compile e execute
 
-Compilar e executar
+Compilação via terminal
+gcc aluno.c -o aluno.exe
 
-Clonando o código
+Execução
+./aluno.exe
 
-Abra o terminal e execute:
+Recomendações (Wall e Wextra)
 
-git clone https://github.com/SEU-USUARIO/seu-repositorio.git
-
-
-Acesse a pasta do projeto:
-
-cd seu-repositorio
-
-
-Abrindo no VS Code:
-
-code .
-
-Adicionando avisos ao compilador (Wall e Wextra)
-
-Recomenda-se o uso das flags para melhorar a qualidade do código:
+Para ativar avisos do compilador:
 
 gcc -Wall -Wextra aluno.c -o aluno.exe
 
 
-Wall: ativa avisos importantes
+-Wall: ativa avisos úteis
 
-Wextra: ativa avisos adicionais e mais rigorosos
-
-Execução
-
-Após compilar, execute:
-
-./aluno.exe
+-Wextra: exibe avisos adicionais
 
 Exemplo de uso
 Entrada
-Digite o nome do aluno: Ana Pereira
-Digite a matricula: 102030
-Informe a primeira nota: 7.5
-Informe a segunda nota: 6.0
+Digite o nome do aluno: Marcos Oliveira
+Digite a matricula: 556677
+Informe a primeira nota: 8.5
+Informe a segunda nota: 7.0
 
 Saída
 --- Dados do Aluno ---
-Nome: Ana Pereira
-Matricula: 102030
-Nota 1: 7.5
-Nota 2: 6
-Média: 6.75
-Aluno(a) Ana Pereira aprovado!
+Nome: Marcos Oliveira
+Matricula: 556677
+Nota 1: 8.5
+Nota 2: 7
+Média: 7.75
+Aluno(a) Marcos Oliveira aprovado!
 
 Informações adicionais
 
-Este projeto foi desenvolvido com a intenção de praticar:
+Este projeto foi desenvolvido para praticar conceitos fundamentais da linguagem C:
 
-Estruturas condicionais
-
-Estruturas de dados (struct)
-
-Manipulação de strings
+Estruturas (struct)
 
 Entrada e saída de dados
 
-Organização de código em C
+Manipulação de strings
+
+Estruturas condicionais
+
+Organização e boas práticas na linguagem
 
 Contribuições para melhoria do código são bem-vindas.
