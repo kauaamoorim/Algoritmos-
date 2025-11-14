@@ -56,4 +56,6 @@ Manipulação de strings
 
 Estruturas condicionais
 
-Organização e boas práticas na linguagemContribuições para melhoria do código são bem-vindas.
+Organização e boas práticas na linguagem
+
+Contribuições para melhoria do código são bem-vindas.
