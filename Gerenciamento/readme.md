@@ -29,7 +29,7 @@ struct Estudante {
     char nome[50];
 };
 Instalação, compilação e execução
-Compilação
+Compilação:
 
 Se estiver usando qualquer IDE (VS Code, Dev-C++, CodeBlocks, etc.):
 
@@ -37,26 +37,20 @@ Baixe o arquivo aluno.c
 
 Abra na IDE
 
-Compile e execute
+Compile e execute:
 
 Compilação via terminal
 gcc aluno.c -o aluno.exe
 
-Execução
+Execução:
 ./aluno.exe
 
-Informações adicionais
+Informações adicionais:
 
 Este projeto foi desenvolvido para praticar conceitos fundamentais da linguagem C:
-
 Estruturas (struct)
-
 Entrada e saída de dados
-
 Manipulação de strings
-
 Estruturas condicionais
-
 Organização e boas práticas na linguagem
-
 Contribuições para melhoria do código são bem-vindas.
