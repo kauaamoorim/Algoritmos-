@@ -48,9 +48,12 @@ Execução:
 Informações adicionais:
 
 Este projeto foi desenvolvido para praticar conceitos fundamentais da linguagem C:
-Estruturas (struct)\n
-Entrada e saída de dados\n
-Manipulação de strings\n
+Estruturas (struct)
+
+Entrada e saída de dados
+
+Manipulação de strings
+
 Estruturas condicionais
-Organização e boas práticas na linguagem
-Contribuições para melhoria do código são bem-vindas.
+
+Organização e boas práticas na linguagemContribuições para melhoria do código são bem-vindas.
